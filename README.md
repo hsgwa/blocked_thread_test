@@ -18,3 +18,7 @@ export RMW_IMPLEMENTATION=rmw_fastrtps_cpp  # use fastdds.
 ros2 run blocked_thread_test blocked_thread_test --ros-args -p thread_num:=10
 ```
 
+## measure
+```
+top -p `pgrep blocked_thread_test`
+```
